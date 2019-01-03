@@ -1,16 +1,20 @@
 {
   "expo": {
     "name": "Takoda",
-    "icon": "./logo.png",
-    "version": "1.0.2",
+    "icon": "./images/logo.png",
+    "version": "1.0.8",
     "slug": "takoda",
-    "sdkVersion": "23.0.0",
+    "sdkVersion": "25.0.0",
     "ios": {
       "bundleIdentifier": "com.takoda.weather"
     },
     "android": {
       "package": "com.takoda.weather",
-      "versionCode": 3,
+      "versionCode": 8,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
     }
   }
 }

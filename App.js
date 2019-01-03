@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {StatusBar, View, StyleSheet} from 'react-native';
-import HomeScreen from './HomeScreen'
-import GardenScreen from './ProfileScreen'
+import HomeScreen from './screens/HomeScreen'
+import GardenScreen from './screens/GardenScreen'
 import {TabNavigator} from 'react-navigation';
 import {Icon} from 'react-native-elements';
 
@@ -17,9 +17,15 @@ export const Tabs = TabNavigator({
     {
         tabBarOptions: {
             style: {
-                marginTop: StatusBar.currentHeight
+                marginTop: StatusBar.currentHeight,
+                backgroundColor: '#3db535c7'
+            },
+            labelStyle: {
+                fontSize: 18,
+            },
+            indicatorStyle: {
+                backgroundColor: "black",
             }
-            ,
         }
     });
 
