@@ -2,7 +2,7 @@
   "expo": {
     "name": "Takoda",
     "icon": "./images/logo.png",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "slug": "takoda",
     "sdkVersion": "25.0.0",
     "ios": {
@@ -10,7 +10,7 @@
     },
     "android": {
       "package": "com.takoda.weather",
-      "versionCode": 8,
+      "versionCode": 9,
       "permissions": [
         "ACCESS_COARSE_LOCATION",
         "ACCESS_FINE_LOCATION"
